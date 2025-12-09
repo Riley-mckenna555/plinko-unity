@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     {
         Move();
         DropDisc();
+        DropBomb();
     }
 
     void DropDisc()
