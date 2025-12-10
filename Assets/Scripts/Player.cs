@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
 
     void DropBomb()
     {
-        // fire button to drop bomb 
+        // fire button to drop blueball
         if (Input.GetButtonDown("Fire2") && activebomb == null)
         {
             Vector3 position = transform.position;
