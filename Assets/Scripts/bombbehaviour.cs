@@ -29,7 +29,7 @@ public class bombbehaviour : MonoBehaviour
             if (rb != null)
             {
                 Vector2 direction = Random.insideUnitCircle.normalized;
-                rb.AddForce(direction * 5f);
+                rb.AddForce(direction * 50,000f);
             }
         }
     }
